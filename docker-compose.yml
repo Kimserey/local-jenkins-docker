@@ -22,8 +22,8 @@ services:
     container_name: server-test
     volumes:
       - type: bind
-        source: C:/Projects
-        target: /var/projects
+        source: C:/Projects/jenkins-pipeline-test/jenkins/artifact
+        target: /var/artifact
     build:
       context: .
       dockerfile: server/Dockerfile
