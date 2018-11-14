@@ -1,5 +1,3 @@
-echo off
-
 docker build -f .\Dockerfile -t jenkins-test .
  
 if not exist "C:\Projects\jenkins-pipeline-test\jenkins_home" mkdir C:\Projects\jenkins-pipeline-test\jenkins_home
